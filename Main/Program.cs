@@ -34,6 +34,8 @@ string s = "you say goodbye, and i say hello";
 Console.WriteLine(s);
 Console.WriteLine(s.Contains("goodbey"));
 Console.WriteLine(s.Contains("goodbye"));
+Console.WriteLine(s.Contains("goodbye"));
+Console.WriteLine(s.Contains("goodbye"));
 
 
 
