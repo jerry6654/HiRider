@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>ConsoleApp1</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ClassCalc\ClassCalc.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="bin\Debug\net7.0\ClassCalc.dll" />
+      <Content Include="bin\Debug\net7.0\ClassCalc.pdb" />
+      <Content Include="bin\Debug\net7.0\ConsoleApp1.deps.json" />
+      <Content Include="bin\Debug\net7.0\ConsoleApp1.exe" />
+      <Content Include="bin\Debug\net7.0\ConsoleApp1.runtimeconfig.json" />
+      <Content Include="bin\Debug\net7.0\Main.deps.json" />
+      <Content Include="bin\Debug\net7.0\Main.dll" />
+      <Content Include="bin\Debug\net7.0\Main.exe" />
+      <Content Include="bin\Debug\net7.0\Main.pdb" />
+      <Content Include="bin\Debug\net7.0\Main.runtimeconfig.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="bin\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="bin\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="bin\**" />
+    </ItemGroup>
+
+</Project>

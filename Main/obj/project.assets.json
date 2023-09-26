@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "ClassCalc/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ClassCalc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassCalc.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClassCalc/1.0.0": {
+      "type": "project",
+      "path": "../ClassCalc/ClassCalc.csproj",
+      "msbuildProject": "../ClassCalc/ClassCalc.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "ClassCalc >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jerry\\.nuget\\packages\\": {},
+    "C:\\Users\\jerry\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jerry\\Desktop\\aaa\\ConsoleApp1\\Main\\Main.csproj",
+      "projectName": "Main",
+      "projectPath": "C:\\Users\\jerry\\Desktop\\aaa\\ConsoleApp1\\Main\\Main.csproj",
+      "packagesPath": "C:\\Users\\jerry\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jerry\\Desktop\\aaa\\ConsoleApp1\\Main\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Users\\jerry\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\jerry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jerry\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\jerry\\Desktop\\aaa\\ConsoleApp1\\ClassCalc\\ClassCalc.csproj": {
+              "projectPath": "C:\\Users\\jerry\\Desktop\\aaa\\ConsoleApp1\\ClassCalc\\ClassCalc.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
